@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Section1 */
+.sec1{
+    width: 40%;
+    height: 35vh;
+    border: solid black 1px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid black 1px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sectione2 */
+.sec2{
+    width: 43%;
+    height: 17vh;
+    border: solid black 1px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid black 1px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sectione3 */
+.sec3{
+    width: 43%;
+    height: 17vh;
+    border: solid black 1px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid black 1px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section4 */
+.sec4{
+    width: 43%;
+    height: 17vh;
+    border: solid black 1px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.four{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: solid black 1px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section5 */
+.sec5{
+    width: 43%;
+    height: 17vh;
+    border: solid black 1px;
+    padding: 10px;
+    background-color: #bcd7e4;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.five{
+    width: 50px;
+    height: 100px;
+    background-color: #f1f1f1;
+    font-size: larger;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.F{
+    order: 1;
+}
